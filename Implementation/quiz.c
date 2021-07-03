@@ -24,8 +24,6 @@ int main(){
      printf("\n\t\t > press H for help            ");
      printf("\n\t\t > press Q to quit             ");
      printf("\n\t\t________________________________________\n\n");
-   
-
      char  choice=toupper(getch());
     if(choice=='V')
 	 {
@@ -59,7 +57,6 @@ int main(){
      }
      else {
          printf("wrong choice\n");
-         goto mainhome;
      }
 return 0;
 }
