@@ -123,8 +123,9 @@ void game(){
                break;
         }
       }
-  }
-     if(count>2){
+     }
+
+     if(count>=2){
           goto test;
      
      }
