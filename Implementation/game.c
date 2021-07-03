@@ -25,5 +25,16 @@ void game(){
         printf("\n\n\n\n\t!!!!!!!!!!!!! ALL THE BEST !!!!!!!!!!!!!");
          printf("\n\n\n Press Y  to start the game!\n");
         printf("\n Press any other key to return to the main menu!");
-       
+       if (toupper(getch())=='Y')
+		{
+            system("cls");
+		    goto home;
+        }
+        else{
+             main();
+        }
+
+        home:
+           printf("your game has started\n");
+
 }
