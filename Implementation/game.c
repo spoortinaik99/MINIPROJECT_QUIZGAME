@@ -1,6 +1,6 @@
-#include "fun.h"
 #include<stdio.h>
 #include<string.h>
+#include "fun.h"
 void game(){
      char playername[20];
       printf("                         welcome to the quiz game\n");
