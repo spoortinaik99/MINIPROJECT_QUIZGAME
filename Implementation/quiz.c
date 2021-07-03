@@ -1,13 +1,11 @@
+#include "fun.h"
 #include<stdio.h>
 #include<conio.h>
 #include<ctype.h>
 #include<stdlib.h>
 #include<string.h>
-void show_record();
-void reset_score();
-void help();
-void edit_score(float,char[]);
-main(){
+
+int main(){
     
     mainhome:
     system("cls");
@@ -57,23 +55,11 @@ main(){
          exit(1);
      }    
      else if(choice=='S'){
-         printf("\n\n\n\n\n\n\n\n\n\n\t\t\tResister your name:");
+         game();
      }
      else {
          printf("wrong choice\n");
          goto mainhome;
      }
-}
-
-void show_record(){
-
-}
-void reset_score(){
-
-}
-void help(){
-
-}
-void edit_score(float,char[]){
-    
+return 0;
 }
