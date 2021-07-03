@@ -18,12 +18,7 @@ main(){
      printf("\n\t\t > press H for help            ");
      printf("\n\t\t > press Q to quit             ");
      printf("\n\t\t________________________________________\n\n");
-     choice=toupper(getc());
-     if (choice=='V')
-	{
-	show_record();
-	goto mainhome;
-	}
+   
 
 
 }
