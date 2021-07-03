@@ -2,6 +2,7 @@
 #include<string.h>
 #include "fun.h"
 void game(){
+     int i,r1;
      char playername[20];
       printf("                         welcome to the quiz game\n");
           printf("                         here are the categories");
@@ -36,5 +37,80 @@ void game(){
 
         home:
            printf("your game has started\n");
-
+            system("cls");
+     int count=0;
+     
+     
+     for(i=1;i<=3;i++)
+     {
+        r1=i;
+        switch(r1)
+        {
+                  case 1:
+		          printf("\n\nA collecion of 8 bits are called?");
+		          printf("\n\nA.bit\t\tB.word\n\nC.byte\t\tD.record");
+		          if (toupper(getch())=='C')
+		          {
+	           		      printf("\n\nCorrect!!!");
+                          count++;
+			              getch();
+			              system("cls");
+			              break;
+                   }
+		
+        
+        else
+	    {
+	            printf("\n\nWrong!!! The correct answer is C.byte");
+		        getch();
+		        system("cls");
+		        break;
+  	   	}
+                  case 2:
+		          printf("\n\nWhich of the following is a Palindrome number?");
+		          printf("\n\nA.42042\t\tB.101010\n\nC.23232\t\tD.01234");
+		          if (toupper(getch())=='C')
+		          {
+			        printf("\n\nCorrect!!!");
+                    count++;
+			        getch();
+			        system("cls");
+			        break;
+                 }
+		
+        
+        else
+	    {
+	            printf("\n\nWrong!!! The correct answer is C.23232");
+		        getch();
+		        system("cls");
+		        break;
+  	   	}
+        
+        system("cls");
+        
+        case 3:
+		printf("\n\n\nWhich of the following is most oriented toward scientific programming ?");
+		printf("\n\nA.Cobol\t\tB.Fortran\n\nC.c++\t\tD.Basic");
+		
+        
+        if (toupper(getch())=='B')
+		{
+            printf("\n\nCorrect!!!");
+            count++;
+			getch();
+			system("cls");
+            break;
+        }
+		
+        
+        else
+        {
+               printf("\n\nWrong!!! The correct answer is B.Fortran");
+		       getch();
+		       system("cls");
+               break;
+        }
+      }
+  }
 }
