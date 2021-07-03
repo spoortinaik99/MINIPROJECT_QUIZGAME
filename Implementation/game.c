@@ -1,9 +1,11 @@
 #include "fun.h"
+#include<stdio.h>
+#include<string.h>
 void game(){
-    char playername[20];
-   printf("                         welcome to the quiz game\n");
-   printf("                         here are the categories");
-   printf("\n\n\n\n\n\n\n\n\n\n\t\t\tResister your name:");
+     char playername[20];
+      printf("                         welcome to the quiz game\n");
+          printf("                         here are the categories");
+            printf("\n\n\n\n\n\n\n\n\n\n\t\t\tResister your name:");
         gets(playername);
          system("cls");
    printf("\n *********** Welcome %s to C Program Quiz Game *****************",playername);
@@ -21,4 +23,7 @@ void game(){
         printf("\n >> You will be asked questions continuously, till right answers are given");
         printf("\n >> No negative marking for wrong answers!");
         printf("\n\n\n\n\t!!!!!!!!!!!!! ALL THE BEST !!!!!!!!!!!!!");
+         printf("\n\n\n Press Y  to start the game!\n");
+        printf("\n Press any other key to return to the main menu!");
+       
 }
