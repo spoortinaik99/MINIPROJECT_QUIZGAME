@@ -59,9 +59,9 @@ void game(){
         switch(r1)
         {
                   case 1:
-		          printf("\n\n Which mathematical function");
-		          printf("\n\nA.bit\t\tB.word\n\nC.byte\t\tD.record");
-		          if (toupper(getch())=='C')
+		          printf("\n\n Which of the following is not a valid C variable name?");
+		          printf("\n\nA.int number\t\tB.float rate\n\nC.int variable_count\t\tD.int $main");
+		          if (toupper(getch())=='D')
 		          {
 	           		      printf("\n\nCorrect!!!");
                           count++;
@@ -73,14 +73,14 @@ void game(){
         
         else
 	    {
-	            printf("\n\nWrong!!! The correct answer is C.byte");
+	            printf("\n\nWrong!!! The correct answer is D.int $main");
 		        getch();
 		        system("cls");
 		        break;
   	   	}
                   case 2:
-		          printf("\n\nWhich of the following is a Palindrome number?");
-		          printf("\n\nA.42042\t\tB.101010\n\nC.23232\t\tD.01234");
+		          printf("\n\nWhat is the size of an int data type?");
+		          printf("\n\nA.4 Byte \t\tB.8 Byte\n\nC.Depends on compiler\t\tD. Cannot be determined");
 		          if (toupper(getch())=='C')
 		          {
 			        printf("\n\nCorrect!!!");
@@ -93,7 +93,7 @@ void game(){
         
         else
 	    {
-	            printf("\n\nWrong!!! The correct answer is C.23232");
+	            printf("\n\nWrong!!! The correct answer is C.Depends on Compiler");
 		        getch();
 		        system("cls");
 		        break;
@@ -102,11 +102,11 @@ void game(){
         system("cls");
         
         case 3:
-		printf("\n\n\nWhich of the following is most oriented toward scientific programming ?");
-		printf("\n\nA.Cobol\t\tB.Fortran\n\nC.c++\t\tD.Basic");
+		printf("\n\n\nWhich keyword is used to prevent any changes in the variable within a C program?");
+		printf("\n\nA.immutable\t\tB.Mutable\n\nC.Const\t\tD.Volatile");
 		
         
-        if (toupper(getch())=='B')
+        if (toupper(getch())=='C')
 		{
             printf("\n\nCorrect!!!");
             count++;
@@ -118,7 +118,7 @@ void game(){
         
         else
         {
-               printf("\n\nWrong!!! The correct answer is B.Fortran");
+               printf("\n\nWrong!!! The correct answer is C.Volatile");
 		       getch();
 		       system("cls");
                break;
