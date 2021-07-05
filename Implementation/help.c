@@ -1,7 +1,7 @@
 #include "fun.h"
 #include<stdio.h>
-#include<stdlib.h>
 void help(){
+
     system("cls");
     printf("\n\n                              HELP");
     printf("\n -------------------------------------------------------------------------");
