@@ -2,7 +2,7 @@
 #include<string.h>
 #include "fun.h"
 void game(){
-     int i,r1,r;
+     int i,r1,r,countr;
      char playername[20];
       printf("                         welcome to the quiz game\n");
           printf("                         here are the categories");
@@ -144,8 +144,7 @@ void game(){
                               goto game;
      }
      game:
-     game:
-     int countr=0;
+      countr=0;
      for(i=1;i<=10;i++)
      {
                        system("cls");
