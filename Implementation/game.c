@@ -361,5 +361,17 @@ void game(){
 
      go:
        printf("DO YOU WANT TO CONTINUE THE GAME");
+       puts("\n\n Press Y if you want to play next game");
+	puts(" Press any key if you want to go main menu");
+	if (toupper(getchar())=='Y')
+	{
+		goto home;
+    }
+        else
+	    {
+	     	edit_score(score,playername);
+		    main();
+        }
+ }
 
-}
+
