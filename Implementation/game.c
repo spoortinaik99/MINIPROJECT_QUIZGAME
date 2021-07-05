@@ -59,7 +59,7 @@ void game(){
         switch(r1)
         {
                   case 1:
-		          printf("\n\nA collecion of 8 bits are called?");
+		          printf("\n\n Which mathematical function");
 		          printf("\n\nA.bit\t\tB.word\n\nC.byte\t\tD.record");
 		          if (toupper(getch())=='C')
 		          {
@@ -122,8 +122,8 @@ void game(){
 		       getch();
 		       system("cls");
                break;
+          }
         }
-      }
      }
 
      if(count>=2){
