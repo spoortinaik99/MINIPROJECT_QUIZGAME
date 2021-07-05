@@ -348,7 +348,7 @@ void game(){
 	 {
 	    printf("\n\n\n \t\t**************** CONGRATULATION ****************");
 	    printf("\n\t\t\t\t YOU ARE A MILLIONAIRE!!!!!!!!!");
-	    printf("\n\t\t\t\t You won $%.2f",score);
+	    printf("\n\t\t\t\t You won $%d",score);
 	    printf("\n\t\t\t\t Thank You !!");
 	 }
 	 else
