@@ -2,7 +2,7 @@
 #include<string.h>
 #include "fun.h"
 void game(){
-     int i,r1;
+     int i,r1,r;
      char playername[20];
       printf("                         welcome to the quiz game\n");
           printf("                         here are the categories");
@@ -127,7 +127,7 @@ void game(){
 
      if(count>=2){
           goto test;
-     
+
      }
      else{
           printf("SORRY YOU ARE NOT QUALIFIED FOR THIS GAME,BETTER LUCK NEXT TIME\n");
@@ -139,4 +139,201 @@ void game(){
         printf("WELCOME TO SECOND ROUND\n");
         printf("\n\n\t*** CONGRATULATION %s you are eligible to play the Game ***",playername);
      printf("\n\n\n\n\t!Press any key to Start the Game!");
+     if(toupper(getch())=='p')
+     {
+                              goto game;
+     }
+     game:
+     game:
+     int countr=0;
+     for(i=1;i<=10;i++)
+     {
+                       system("cls");
+                       r=i;
+
+     switch(r)
+     {
+		case 1:
+		printf("\n\nAll are the example of input devices Except a:");
+		printf("\n\nA.Scanner\t\tB.Mouse\n\nC.Printer\t\tD.Keyboard");
+		if (toupper(getch())=='C')
+		{
+                                  printf("\n\nCorrect!!!");countr++;getch();
+			                      break;
+                                  getch();
+         }
+		
+        
+        else
+        {
+                                  printf("\n\nWrong!!! The correct answer is C.Printer");
+                                  getch();
+		                          goto score;
+		                          break;
+        }
+
+	
+    	case 2:
+		printf("\n\n\nWhat kind of file extension .mpg?,");
+		printf("\n\nA.Movie file \t\tB.Text file\n\nC.Image file\t\tD.Audio file");
+		if (toupper(getch())=='A')
+		{
+                    printf("\n\nCorrect!!!");
+                    countr++;
+                    getch();
+			        break;
+         }
+	
+    
+    	else
+        {
+                    printf("\n\nWrong!!! The correct answer is A.Movie file");
+                    getch();
+	                goto score;
+		            break;
+	     }
+
+        case 3:
+		printf("\n\n\nA DVD is an example of a/an.. ");
+		printf("\n\nA.Magnetic disk\t\tB.Hard disk\n\nC.Output device\t\tD.Optical disk");
+		if (toupper(getch())=='D')
+		{
+                     printf("\n\nCorrect!!!");
+                     countr++;
+                     getch();
+			         break;
+                     }
+		else
+	    {
+                    printf("\n\nWrong!!! The correct answer is D.Optical disk");
+                    getch();
+		            goto score;
+		            break;
+                    }
+
+        case 4:
+		printf("\n\n\nWho is he founder of facebook?");
+		printf("\n\nA.Mark zuckerburg\tB.Tesla\n\nC.Steve jobs\t\tD.Bill gates");
+		if (toupper(getch())=='A')
+		{
+                                  printf("\n\nCorrect!!!");
+                                  countr++;
+                                  getch();
+			                      break;
+                                  }
+		
+        else
+        {
+                printf("\n\nWrong!!! The correct answer is A.Mark zuckerburg");
+                getch();
+       	        goto score;
+		        break;
+		       }
+
+        
+        case 5:
+		printf("\n\n\nWhich of he following is a web browser?");
+		printf("\n\nA.Dreamweaver\tB.Netscape navigator\n\nC.Maya\t\tD.Flash");
+		if(toupper(getch())=='B')
+		{
+                                 printf("\n\nCorrect!!!");
+                                 countr++;
+                                 getch();
+                                 break;}
+		else
+        {
+		       printf("\n\nWrong!!! The correct answer is B.Netscape navigator");
+		       getch();
+		       goto score;
+		       break;
+		       }
+
+        case 6:
+		printf("\n\n\nWhat kind of file extension .bak?,");
+		printf("\n\nA.Backup file \t\tB.Text file\n\nC.Image file\t\tD.Audio file");
+		if (toupper(getch())=='A')
+		{
+                                 printf("\n\nCorrect!!!");
+                                 countr++;
+                                 getch();
+                                 break;}
+		else
+        {
+		       printf("\n\nWrong!!! The correct answer is A.Backup file");
+		       getch();
+		       goto score;
+		       break;
+		       }
+	
+		case 7:
+		printf("\n\n\nwhich of he following is a read only memory storage device ");
+		printf("\n\nA.Flash drive\t\tB.Hard disk\n\nC.Floppy disk\t\tD.CDROM");
+		if(toupper(getch())=='D')
+		{
+                                 printf("\n\nCorrect!!!");
+                                 countr++;
+                                 getch();
+                                 break;}
+		else
+        {
+		       printf("\n\nWrong!!! The correct answer is D.CDROM");
+		       getch();
+		       goto score;
+		       break;
+		       }
+        case 8:
+		printf("\n\n\nThe _____ shows all the web sites any pages that you have visited one of recent time ");
+		printf("\n\nA.Hisory list\t\tB.Status bar \n\nC.task bar\t\tD.record");
+		if(toupper(getch())=='A')
+		{
+                                 printf("\n\nCorrect!!!");
+                                 countr++;
+                                 getch();
+                                 break;}
+		else
+        {
+		       printf("\n\nWrong!!! The correct answer is A.Hisory list");
+		       getch();
+		       goto score;
+		       break;
+		       }
+        case 9:
+		printf("\n\n\nA 32 bit word computer can access ____ bytes at a time ");
+		printf("\n\nA.32\t\tB.16\n\nC.8\t\tD.4");
+		if(toupper(getch())=='C')
+		{
+                                 printf("\n\nCorrect!!!");
+                                 countr++;
+                                 getch();
+                                 break;}
+		else
+        {
+		       printf("\n\nWrong!!! The correct answer is C.8");
+		       getch();
+		       goto score;
+		       break;
+		       }
+        case 10:
+     	printf("\n\n\nWho is the founder of pixar animation?");
+		printf("\n\nA.Mark zuckerburg\tB.Tesla\n\nC.Steve jobs\t\tD.Bill gates");
+		if(toupper(getch())=='C')
+		{
+                                 printf("\n\nCorrect!!!");
+                                 countr++;
+                                 getch();
+                                 break;
+                                 
+                                 }
+		else
+        {
+		       printf("\n\nWrong!!! The correct answer is C.Steve jobs");
+		       getch();
+		       goto score;
+		       break;
+		       }
+
+		}
+  }
+     score:
+       printf("the score is");
 }
