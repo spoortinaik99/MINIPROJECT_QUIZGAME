@@ -336,15 +336,15 @@ void game(){
   }
      score:
        system("cls");
-	score=(float)countr*100000;
-	if(score>0.00 && score<1000000)
+	score=countr*100;
+	if(score>0 && score<1000)
 	{
 	   printf("\n\n\t\t**************** CONGRATULATION *****************");
-       printf("\n\t You won $%.2f",score);
+       printf("\n\t You won $%d",score);
        goto go;
     }
 
-	 else if(score==1000000.00)
+	 else if(score==1000)
 	 {
 	    printf("\n\n\n \t\t**************** CONGRATULATION ****************");
 	    printf("\n\t\t\t\t YOU ARE A MILLIONAIRE!!!!!!!!!");
