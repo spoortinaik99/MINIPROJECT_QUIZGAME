@@ -369,7 +369,7 @@ void game(){
     }
         else
 	    {
-	     	edit_score(score,playername);
+	    
 		    main();
         }
  }
