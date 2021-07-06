@@ -24,6 +24,9 @@ Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the se
 
 ## High Level Requirements
 -User able to register
+
 -User able to play Game
+
 -Able to view Score
+
 -Able to Reset Scores
