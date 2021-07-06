@@ -17,3 +17,5 @@ In this quiz game mini project, you can store the user name, view the highest sc
 
 Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the second is the Challenge round. In the warm-up round, the user is asked a total of three simple questions and they must be able to answer at least two of them correctly to enter the next round. If the user is not capable of doing that, he is not permitted to proceed further.
 
+ DETAIL REQUIREMENTS
+	
