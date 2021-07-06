@@ -1,12 +1,9 @@
 #Target_name : Dependencies
 #<TAB>Command
 
-SRC = quiz.c game.c help.c reset_score.c show_record.c
 
-INC = fun.h
-
-target : $(SRC) $(INC)
-	gcc $(SRC)  $(INC) -o $(INC)
+target : quiz.c game.c help.c reset_score.c show_record.c fun.h
+	gcc  quiz.c game.c help.c reset_score.c show_record.c -o all.out
 
 run : target 
 	./all.out
