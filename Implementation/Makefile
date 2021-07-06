@@ -11,8 +11,8 @@ src/ show_record.c
 
 INC = inc
 
-target: $(SRC) $(INC)
-	gcc $(SRC) -I$(INC) -o all.out
+all.out: $(SRC) 
+	gcc $^ -I$(INC) -o $@
 
 run : target
 	./all.out
