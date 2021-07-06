@@ -1,4 +1,4 @@
-##INTRODUCTION
+## INTRODUCTION
 
  In this project, a number of questions are asked, and the user is awarded points for each correct answer given.
 
