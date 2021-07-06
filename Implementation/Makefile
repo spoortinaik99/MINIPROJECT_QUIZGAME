@@ -6,7 +6,8 @@ SRC = quiz.c\
 src/help.c\
 src/game.c\
 src/reset_score.c\
-src/show_record.c
+src/ show_record.c
+
 
 INC = inc
 
