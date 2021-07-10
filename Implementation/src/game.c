@@ -160,7 +160,7 @@ void game(){
 		{
                                   printf("\n\nCorrect!!!");countr++;getch();
 			                      break;
-                                  getch();
+                                 
          }
 		
         
@@ -194,6 +194,7 @@ void game(){
 	     }
 
         case 3:
+        
 		printf("\n\n\nA DVD is an example of a/an.. ");
 		printf("\n\nA.Magnetic disk\t\tB.Hard disk\n\nC.Output device\t\tD.Optical disk");
 		if (toupper(getch())=='D')
