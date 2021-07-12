@@ -23,3 +23,22 @@ source code is present in implementation folder
 <a href="https://frontend.code-inspector.com/public/user/github/spoortinaik99">
    <img src="https://code-inspector.com/public/badge/user/github/spoortinaik99?style=light" alt="code inspector badge" />
 </a>
+
+
+
+## Folder Structure
+
+| Folder  | Description  |
+|--- |--- |
+| Requirements | Documents detailing requirements and research |
+| Architecture |  Structural and Behavioural UML Diagrams for High Level and Low level |
+| Implementation | All code and documentation |
+| Test Plan and Output | Documents with test plans and outputs |
+
+
+
+## Contribution List
+
+| SF ID  | Name          | Features                       | 
+|---     |---            |---                             |
+| `268457`| Spoorti S Naik  | listed below in Features table |      
