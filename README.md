@@ -5,6 +5,7 @@ quiz game using c programming
 source code is present in implementation folder
 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/11111e30f1e1417d9693d3d5e980f04a)](https://app.codacy.com/gh/spoortinaik99/MINIPROJECT_QUIZGAME?utm_source=github.com&utm_medium=referral&utm_content=spoortinaik99/MINIPROJECT_QUIZGAME&utm_campaign=Badge_Grade_Settings)
 [![Code Quality Score](https://www.code-inspector.com/project/24689/score/svg)](<https://frontend.code-inspector.com/public/project/24689/MINIPROJECT_QUIZGAME/dashboard>)
 [![Code Quality Score](https://www.code-inspector.com/project/24689/status/svg)](<https://frontend.code-inspector.com/public/project/24689/MINIPROJECT_QUIZGAME/dashboard>)
 
