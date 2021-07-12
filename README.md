@@ -30,9 +30,9 @@ source code is present in implementation folder
 
 | Folder  | Description  |
 |--- |--- |
-| Requirements | Documents detailing requirements and research |
-| Architecture |  Structural and Behavioural UML Diagrams for High Level and Low level |
+| Design |  Structural and Behavioural UML Diagrams for High Level and Low level |
 | Implementation | All code and documentation |
+| Requirements | Documents detailing requirements and research |
 | Test Plan and Output | Documents with test plans and outputs |
 
 
