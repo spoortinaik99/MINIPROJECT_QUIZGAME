@@ -169,7 +169,7 @@ void game(){
                                   printf("\n\nWrong!!! The correct answer is C.Printer");
                                   getch();
 		                          goto score;
-		                          break;
+		                          
         }
 
 	
