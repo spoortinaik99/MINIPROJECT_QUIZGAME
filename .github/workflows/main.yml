@@ -1,7 +1,4 @@
 name: Windows C/C++ CI
-
-  name: C CI - Build Status on Linux
-
 on:
   push:
     branches: [main]
