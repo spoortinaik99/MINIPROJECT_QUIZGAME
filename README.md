@@ -11,6 +11,10 @@ source code is present in implementation folder
 
 [![Windows C/C++ CI](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/main.yml/badge.svg)](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/main.yml)
 
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8ecdc642a3334ea197c62e5dec46e02a)](https://www.codacy.com/gh/spoortinaik99/MINIPROJECT_QUIZGAME/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=spoortinaik99/MINIPROJECT_QUIZGAME&amp;utm_campaign=Badge_Grade)
+
+
 [![Unit Testing - Unity](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/unity.yml/badge.svg)](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/unity.yml)
 
 [![CI-Coverage](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/code_coverage.yml/badge.svg)](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/code_coverage.yml)
