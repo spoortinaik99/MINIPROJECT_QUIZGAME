@@ -1,0 +1,19 @@
+name:  Code Coverage
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: install gcov
+      run: sudo apt -y install gcovr 
+    - name: code coverage
+      run: make -C Implementation/ coverage
