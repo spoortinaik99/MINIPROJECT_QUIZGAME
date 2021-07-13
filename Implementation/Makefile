@@ -35,7 +35,7 @@ INC	= -Iinc\
 INCLUDE_LIBS = -lcunit
 
 # Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(EXECUTABLE).out
+PROJECT_OUTPUT = $(BUILD)/$(EXECUTABLE)
 
 # Document files
 #DOCUMENTATION_OUTPUT = documentation/html
