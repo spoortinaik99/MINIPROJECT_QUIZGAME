@@ -29,9 +29,10 @@ Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the se
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
-   1  |User able to register | Implemented
+
+  ID  | Description            | Status (Implemented/Future)
+------|------------------------|-----------------------------|
+   1  |User able to register   | Implemented
    2  | User able to play Quiz | Implemented
    3  | Able to view Score     | Implemented
    4  | Able to reset score    | Implemented
