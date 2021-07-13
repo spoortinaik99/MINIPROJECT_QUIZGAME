@@ -16,6 +16,8 @@ source code is present in implementation folder
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/8ecdc642a3334ea197c62e5dec46e02a)](https://www.codacy.com/gh/spoortinaik99/MINIPROJECT_QUIZGAME/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=spoortinaik99/MINIPROJECT_QUIZGAME&amp;utm_campaign=Badge_Grade)
 
+[![Contribution Check - Git Inspector](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/git_inspector.yml/badge.svg)](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/git_inspector.yml)
+
 
 [![Unit Testing - Unity](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/unity.yml/badge.svg)](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/unity.yml)
 
