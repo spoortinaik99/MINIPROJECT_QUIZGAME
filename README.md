@@ -49,6 +49,7 @@ source code is present in implementation folder
 
 
 ##FEATURES
+
 1. USER ABLE TO REGISTER
 2. PLAY GAME
 3. SHOW RECORD
