@@ -35,7 +35,7 @@ INC	= -Iinc\
 INCLUDE_LIBS = -lcunit
 
 # Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(EXECUTABLE)
+PROJECT_OUTPUT = $(BUILD)/$(EXECUTABLE).out
 
 # Document files
 #DOCUMENTATION_OUTPUT = documentation/html
@@ -53,7 +53,7 @@ all: $(SRC) $(BUILD)
 run:$(PROJECT_NAME)
 	./$(PROJECT_OUTPUT)
 
-	
+
 #Coverage
 coverageCheck:$(BUILD)
 	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
