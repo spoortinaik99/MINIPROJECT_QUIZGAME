@@ -45,4 +45,12 @@ source code is present in implementation folder
 
 | SF ID  | Name          | Features                       | 
 |---     |---            |---                             |
-| `268457`| Spoorti S Naik  | listed below in Features table |      
+| `268457`| Spoorti S Naik  | listed below in Features table |   
+
+
+##FEATURES
+1. USER ABLE TO REGISTER
+2. PLAY GAME
+3. SHOW RECORD
+4. RESET SCORE
+5. QUIT
