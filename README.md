@@ -11,8 +11,7 @@ source code is present in implementation folder
 
 [![Windows C/C++ CI](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/main.yml/badge.svg)](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/main.yml)
 
-[![Linux C/C++ CI](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/main.yml/badge.svg)](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/main.yml)
-
+[![C/C++ CI - Build Status](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/linux_build.yml/badge.svg)](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/linux_build.yml)
 
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/8ecdc642a3334ea197c62e5dec46e02a)](https://www.codacy.com/gh/spoortinaik99/MINIPROJECT_QUIZGAME/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=spoortinaik99/MINIPROJECT_QUIZGAME&amp;utm_campaign=Badge_Grade)
