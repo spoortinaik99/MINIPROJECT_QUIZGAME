@@ -41,6 +41,7 @@ Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the se
    
    
    ##  Low level Requirements:
+   
    ID | Description                    | Status (Implemented/Future)
    ---|--------------------------------|-----------------------------|
     1 | one user can play multiple game| implemented
