@@ -1,16 +1,17 @@
-name: Linux C/C++ CI
+name: C/C++ CI - Build Status
+
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   pull_request:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
 
-
     steps:
-      - uses: actions/checkout@v2
-      - name: make
-        run: make -C Implementation/ all
+    - uses: actions/checkout@v2
+    - name: make
+      run: make -C Implementation/ all
