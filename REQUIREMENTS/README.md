@@ -26,13 +26,13 @@ In this quiz game mini project, you can store the user name, view the highest sc
 
 Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the second is the Challenge round. In the warm-up round, the user is asked a total of three simple questions and they must be able to answer at least two of them correctly to enter the next round. If the user is not capable of doing that, he is not permitted to proceed further.
 
-### Detailed Requirements
 
-## High Level Requirements
--User able to register
-
--User able to play Game
-
--Able to view Score
-
--Able to Reset Scores
+# Detail requirements
+## High Level Requirements:
+--- TBD in Tabular Format 
+-- ID | Description | Status (Implemented/Future)
+   1  |User able to register | Implemented
+   2  | User able to play Quiz | Implemented
+   3  | Able to view Score     | Implemented
+   4  | Able to reset score    | Implemented
+   5  | Able to quit Game      | Implemented
