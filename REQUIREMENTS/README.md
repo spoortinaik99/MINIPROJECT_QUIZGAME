@@ -38,12 +38,10 @@ Of the 2 rounds I mentioned above, the first is called the Warm-up Round; the se
    4  | Able to reset score    | Implemented
    
    
-   
-   
    ##  Low level Requirements:
    
    ID | Description                    | Status (Implemented/Future)
-   ---|--------------------------------|-----------------------------|
+ -----|--------------------------------|-----------------------------|
     1 | one user can play multiple game| implemented
     2 |  quit game                     | implemented
 
