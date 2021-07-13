@@ -48,10 +48,15 @@ source code is present in implementation folder
 | `268457`| Spoorti S Naik  | listed below in Features table |   
 
 
-##FEATURES
+## FEATURES
 
 1. USER ABLE TO REGISTER
 2. PLAY GAME
 3. SHOW RECORD
 4. RESET SCORE
 5. QUIT
+
+
+## HOW TO RUN
+ 
+ make run
