@@ -57,5 +57,7 @@ source code is present in implementation folder
 
 
 ## HOW TO RUN
+
+must be in implementation folder
  
  make run
