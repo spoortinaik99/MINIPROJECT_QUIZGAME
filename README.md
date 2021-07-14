@@ -4,18 +4,6 @@ quiz game using c programming
 
 source code is present in implementation folder
 
-Build | Code Quality | Unity | [Git Inspector](using github.io option)
-------|----------|-------|--------------
- |[![Windows C/C++ CI](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/main.yml/badge.svg)](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/main.yml)
-
-[![C/C++ CI - Build Status](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/linux_build.yml/badge.svg)](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/linux_build.yml)
-|[![Code Quality Score](https://www.code-inspector.com/project/24689/score/svg)](<https://frontend.code-inspector.com/public/project/24689/MINIPROJECT_QUIZGAME/dashboard>)
-[![Code Quality Score](https://www.code-inspector.com/project/24689/status/svg)](<https://frontend.code-inspector.com/public/project/24689/MINIPROJECT_QUIZGAME/dashboard>)
-| [![Unit Testing - Unity](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/unity.yml/badge.svg)](https://github.com/spoortinaik99/MINIPROJECT_QUIZGAME/actions/workflows/unity.yml)
-
-| <a href="https://frontend.code-inspector.com/public/user/github/spoortinaik99">
-   <img src="https://code-inspector.com/public/badge/user/github/spoortinaik99?style=light" alt="code inspector badge" />
-</a>
 
 
 
